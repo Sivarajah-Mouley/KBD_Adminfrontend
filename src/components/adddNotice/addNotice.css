@@ -1,0 +1,149 @@
+
+  .form1 {
+    background-color: #588cab;
+    font-family: Open Sans;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: 420px;
+    padding: 20px;
+    padding-bottom: 2px;
+  }
+   
+
+  .title_ad {
+    color: #eee;
+    font-family: Open Sans;
+    font-size: 20px;
+    margin-top: 3px;
+    border-radius: 6px;
+    background-color: #26bfbf;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  
+  .ic1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .input_container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+  }
+  
+  
+  .input option {
+    background-color: #fff;
+    color: #333;
+  }
+ 
+  .placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    font-size: 15px;
+    margin-top: auto;
+  }
+
+  .input:focus ~ .placeholder {
+    color: #f3f3f300;
+    visibility: hidden;
+    opacity: 0;
+    
+  }
+  
+
+  
+  .input:not(:placeholder-notshown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  
+  .submitbtn {
+    background-color: rgb(50, 112, 150);
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .submit:active {
+    background-color: rgb(83, 101, 109);
+  }
+  
+  .card{
+    margin-bottom:10px;
+    border-radius: 6px;
+  }
+
+
+
+  .box2 {
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: calc(50% - 20px);
+    display: inline-block;
+    align-items: flex-start; 
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 140px; 
+  }
+
+  .box2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .box2-header {
+    background-color: #4e7b7b;
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+    padding: 6px;
+    height:32px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+  
+  .box2-title {
+    font-family: 'Times New Roman'; 
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; 
+    margin-top: 5px;
+    padding-top: 30px;
+    padding: 6px;
+    
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px;
+  }
+
+  div.p-3 {
+    font-size: 30px;
+  }
